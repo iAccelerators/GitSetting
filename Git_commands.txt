@@ -1,0 +1,47 @@
+Git Config Setup 
+=======================
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+=======================
+Navigation in git 
+=======================
+cd /c/folder path/
+
+=======================
+git init       // git initialization 
+=======================
+
+git remote add origin URL   // origin/remote setup
+
+git checkout -b newbranchname    // create new branch
+
+git pull origin master       // Check-out the code to branch
+
+
+git add filename   // add single file at a time 
+git add -A         // add all the files 
+
+git commit           // committing the added files 
+git commmit -m "write your message"  // committing with message
+
+git push origin Head  // check-in committed files 
+
+git push origin branchname  // you can check-in by branchname               
+
+git status    // command 
+
+git checkout  branchname   // switch to other branch
+
+git branch  // To list all the branch
+
+git diff  // To check the changes in file 
+
+git stash  // To store the code in current branch & switch to other branch
+
+git branch -d the_local_branch  // Delete a branch
+
+git rm filename  // Delete a file
+
+
+
